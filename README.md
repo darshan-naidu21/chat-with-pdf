@@ -32,7 +32,8 @@ This project enables users to **upload PDFs, store them in AWS S3, and query the
 
 | Component         | Technology |
 |------------------|------------|
-| **Backend**       | FastAPI  |
+| **Frontend**       | React & Tailwind CSS |
+| **Backend**       | FastAPI |
 | **LLM Model**     | OpenAI `gpt-4o-mini` (VLM) |
 | **PDF Parsing**   | LlamaParse (with **VLM** for images & charts) |
 | **Vector Database** | Supabase (pgvector) |
