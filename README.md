@@ -1,6 +1,6 @@
 # 📄 Chat with PDF
 
-This project enables users to **upload PDFs, store them in AWS S3, and query them** using a vector database for retrieving relevant information. It extracts and indexes PDF content into **Supabase Vector Store**, allowing for **semantic search** and **conversational querying** using OpenAI’s `gpt-4o-mini` **Vision-Language Model (VLM)**.
+This project enables users to **upload PDFs, store them in AWS S3, and query them** using a vector database for retrieving relevant information. It extracts and indexes PDF content into **Supabase Vector Store**, allowing for **semantic search** and **conversational querying** using OpenAI’s `gpt-4o-mini`.
 
 It follows the Retrieval-Augmented Generation (RAG) approach, where relevant document chunks are retrieved from a vector database and used as context to generate accurate and informative responses.
 
